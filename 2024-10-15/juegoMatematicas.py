@@ -34,7 +34,7 @@ class Ventana(QtWidgets.QMainWindow):
                 self.comprobados[i - 1] = True  # Marcar como comprobado
             
             if self.progressBar.value() == 100:
-                self.label_2.setText("ENHORABUENA")
+                self.enhorabuena.setText("ENHORABUENA")
 
 # Se crea la instancia de la aplicación
 app = QtWidgets.QApplication(sys.argv)
