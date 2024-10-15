@@ -35,7 +35,7 @@ class Ventana(QtWidgets.QMainWindow):
             
             if self.progressBar.value() == 100:
                 self.enhorabuena.setText("ENHORABUENA")
-erwwrw
+
 # Se crea la instancia de la aplicación
 app = QtWidgets.QApplication(sys.argv)
 # Se crea la instancia de la ventana
