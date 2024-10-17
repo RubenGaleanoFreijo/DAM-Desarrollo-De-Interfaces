@@ -6,160 +6,32 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>366</width>
-    <height>402</height>
+    <width>326</width>
+    <height>406</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QLabel" name="label">
-    <property name="geometry">
-     <rect>
-      <x>110</x>
-      <y>20</y>
-      <width>161</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>JUEGO DE LAS MATEMATICAS</string>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_3">
-    <property name="geometry">
-     <rect>
-      <x>30</x>
-      <y>80</y>
-      <width>47</width>
-      <height>13</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>2+2 = </string>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_4">
-    <property name="geometry">
-     <rect>
-      <x>30</x>
-      <y>130</y>
-      <width>47</width>
-      <height>13</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>2+2 = </string>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_5">
-    <property name="geometry">
-     <rect>
-      <x>130</x>
-      <y>110</y>
-      <width>47</width>
-      <height>13</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>2+2 = </string>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_6">
-    <property name="geometry">
-     <rect>
-      <x>240</x>
-      <y>80</y>
-      <width>47</width>
-      <height>13</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>2+2 = </string>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_7">
-    <property name="geometry">
-     <rect>
-      <x>240</x>
-      <y>140</y>
-      <width>47</width>
-      <height>13</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>2+2 = </string>
-    </property>
-   </widget>
    <widget class="QProgressBar" name="progressBar">
     <property name="geometry">
      <rect>
-      <x>130</x>
-      <y>220</y>
-      <width>118</width>
-      <height>23</height>
+      <x>40</x>
+      <y>260</y>
+      <width>261</width>
+      <height>21</height>
      </rect>
     </property>
     <property name="value">
      <number>0</number>
     </property>
    </widget>
-   <widget class="QLineEdit" name="resultado1">
-    <property name="geometry">
-     <rect>
-      <x>70</x>
-      <y>80</y>
-      <width>21</width>
-      <height>20</height>
-     </rect>
-    </property>
-   </widget>
-   <widget class="QLineEdit" name="resultado2">
-    <property name="geometry">
-     <rect>
-      <x>70</x>
-      <y>130</y>
-      <width>21</width>
-      <height>20</height>
-     </rect>
-    </property>
-   </widget>
-   <widget class="QLineEdit" name="resultado3">
-    <property name="geometry">
-     <rect>
-      <x>170</x>
-      <y>110</y>
-      <width>21</width>
-      <height>20</height>
-     </rect>
-    </property>
-   </widget>
-   <widget class="QLineEdit" name="resultado4">
-    <property name="geometry">
-     <rect>
-      <x>280</x>
-      <y>80</y>
-      <width>21</width>
-      <height>20</height>
-     </rect>
-    </property>
-   </widget>
-   <widget class="QLineEdit" name="resultado5">
-    <property name="geometry">
-     <rect>
-      <x>270</x>
-      <y>140</y>
-      <width>21</width>
-      <height>20</height>
-     </rect>
-    </property>
-   </widget>
    <widget class="QPushButton" name="botonComprobar">
     <property name="geometry">
      <rect>
-      <x>140</x>
-      <y>290</y>
+      <x>120</x>
+      <y>340</y>
       <width>75</width>
       <height>23</height>
      </rect>
@@ -171,8 +43,8 @@
    <widget class="QLabel" name="enhorabuena">
     <property name="geometry">
      <rect>
-      <x>130</x>
-      <y>340</y>
+      <x>120</x>
+      <y>300</y>
       <width>101</width>
       <height>16</height>
      </rect>
@@ -181,13 +53,177 @@
      <string/>
     </property>
    </widget>
+   <widget class="QWidget" name="gridLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>60</y>
+      <width>211</width>
+      <height>171</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="0" column="6">
+      <widget class="QLineEdit" name="resultado6"/>
+     </item>
+     <item row="3" column="0">
+      <widget class="QLabel" name="operacion4">
+       <property name="text">
+        <string>oper4</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="0">
+      <widget class="QLabel" name="operacion5">
+       <property name="text">
+        <string>oper5</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QLabel" name="operacion2">
+       <property name="text">
+        <string>oper2</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="0">
+      <widget class="QLabel" name="operacion1">
+       <property name="text">
+        <string>oper1</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="0">
+      <widget class="QLabel" name="operacion3">
+       <property name="text">
+        <string>oper3</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="5">
+      <widget class="QLabel" name="operacion9">
+       <property name="text">
+        <string>oper9</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="QLineEdit" name="resultado3"/>
+     </item>
+     <item row="2" column="5">
+      <widget class="QLabel" name="operacion8">
+       <property name="text">
+        <string>oper8</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="5">
+      <widget class="QLabel" name="operacion7">
+       <property name="text">
+        <string>oper7</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="5">
+      <widget class="QLabel" name="operacion6">
+       <property name="text">
+        <string>oper6</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QLineEdit" name="resultado1"/>
+     </item>
+     <item row="4" column="1">
+      <widget class="QLineEdit" name="resultado5"/>
+     </item>
+     <item row="1" column="6">
+      <widget class="QLineEdit" name="resultado7"/>
+     </item>
+     <item row="4" column="6">
+      <widget class="QLineEdit" name="resultado10"/>
+     </item>
+     <item row="2" column="6">
+      <widget class="QLineEdit" name="resultado8"/>
+     </item>
+     <item row="3" column="6">
+      <widget class="QLineEdit" name="resultado9"/>
+     </item>
+     <item row="0" column="4" rowspan="5">
+      <spacer name="verticalSpacer_3">
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>20</width>
+         <height>40</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item row="0" column="3" rowspan="5">
+      <spacer name="verticalSpacer_2">
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>20</width>
+         <height>40</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item row="0" column="2" rowspan="5">
+      <spacer name="verticalSpacer">
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>20</width>
+         <height>40</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item row="3" column="1">
+      <widget class="QLineEdit" name="resultado4"/>
+     </item>
+     <item row="1" column="1">
+      <widget class="QLineEdit" name="resultado2"/>
+     </item>
+     <item row="4" column="5">
+      <widget class="QLabel" name="operacion10">
+       <property name="text">
+        <string>oper10</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>10</y>
+      <width>191</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>JUEGO DE LAS MATEMATICAS</string>
+    </property>
+   </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>366</width>
+     <width>326</width>
      <height>21</height>
     </rect>
    </property>
