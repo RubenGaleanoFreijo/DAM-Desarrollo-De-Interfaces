@@ -56,7 +56,9 @@ class Ventana(QtWidgets.QMainWindow):
         if not self.todas_operaciones_completadas():
             QtWidgets.QMessageBox.warning(self, "Advertencia", "Por favor, completa todas las operaciones antes de comprobar.")
             return
-
+        else:
+            QtWidgets.QMessageBox.question(self, "Confirmación", "¿Estás seguro que quieres finalizar?")
+            
         for i in range(10):
             resultado = getattr(self, f'resultado{i + 1}')
             if resultado.text() == str(self.resultados_correctos[i]):
