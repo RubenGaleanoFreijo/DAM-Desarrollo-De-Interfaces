@@ -3,8 +3,9 @@ import random
 from PyQt6 import QtWidgets, uic
 from PyQt6.QtGui import QDoubleValidator 
 
+#Esta es la clase principal
 class Ventana(QtWidgets.QMainWindow):
-    '''Esta es la clase principal'''
+
     def __init__(self, padre=None):
         super().__init__(padre)
         uic.loadUi("juegoMatematicas.ui", self)  # Lee el archivo de QtDesigner
@@ -50,7 +51,12 @@ class Ventana(QtWidgets.QMainWindow):
         # Guardar los resultados para su comprobación
         self.resultados_correctos = [op[1] for op in operaciones]
 
+    # Verificar que todas las operaciones estén completadas
     def comprobar(self):
+        if not self.todas_operaciones_completadas():
+            QtWidgets.QMessageBox.warning(self, "Advertencia", "Por favor, completa todas las operaciones antes de comprobar.")
+            return
+
         for i in range(10):
             resultado = getattr(self, f'resultado{i + 1}')
             if resultado.text() == str(self.resultados_correctos[i]):
@@ -77,8 +83,16 @@ class Ventana(QtWidgets.QMainWindow):
         else:
             self.enhorabuena.setText("Algo no ha ido bien...")
 
+    #Verifica si todos los campos de resultados están llenos
+    def todas_operaciones_completadas(self):
+        for i in range(10):
+            resultado = getattr(self, f'resultado{i + 1}')
+            if resultado.text() == "":
+                return False
+        return True
+
     def restablecer_color(self):
-        #Restablece el color del QLineEdit que ha cambiado a su estado original, si es necesario
+        # Restablece el color del QLineEdit que ha cambiado a su estado original, si es necesario
         for i in range(10):
             resultado = getattr(self, f'resultado{i + 1}')
             # Restablecer estilo si el texto está vacío o se está editando
