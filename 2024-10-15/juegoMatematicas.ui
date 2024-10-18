@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>328</width>
+    <width>353</width>
     <height>385</height>
    </rect>
   </property>
@@ -56,9 +56,9 @@
    <widget class="QWidget" name="gridLayoutWidget">
     <property name="geometry">
      <rect>
-      <x>60</x>
+      <x>40</x>
       <y>60</y>
-      <width>211</width>
+      <width>268</width>
       <height>171</height>
      </rect>
     </property>
@@ -207,7 +207,7 @@
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>90</x>
+      <x>100</x>
       <y>10</y>
       <width>191</width>
       <height>41</height>
@@ -223,7 +223,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>328</width>
+     <width>353</width>
      <height>21</height>
     </rect>
    </property>

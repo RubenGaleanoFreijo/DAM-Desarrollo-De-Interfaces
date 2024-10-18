@@ -58,6 +58,9 @@ class Ventana(QtWidgets.QMainWindow):
             return
         else:
             QtWidgets.QMessageBox.question(self, "Confirmación", "¿Estás seguro que quieres finalizar?")
+            if QtWidgets.QMessageBox.question(buttons="No"):
+                print("Error")
+
             
         for i in range(10):
             resultado = getattr(self, f'resultado{i + 1}')
