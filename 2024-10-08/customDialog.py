@@ -1,6 +1,4 @@
-
 import sys
-
 from PyQt6.QtWidgets import QApplication, QDialog, QMainWindow, QPushButton, QVBoxLayout, QLabel, QDialogButtonBox
 
 class CustomDialog(QDialog):

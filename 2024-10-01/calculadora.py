@@ -1,5 +1,5 @@
-import sys
 from PyQt6.QtWidgets import QApplication, QWidget, QPushButton, QLineEdit, QGridLayout
+import sys
 
 class Calculadora(QWidget):
 

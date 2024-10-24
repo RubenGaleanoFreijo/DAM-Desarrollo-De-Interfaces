@@ -1,6 +1,5 @@
 import sys
 from PyQt6.QtWidgets import QApplication, QWidget, QLineEdit, QPushButton, QLabel, QGridLayout
-from PyQt6.QtCore import Qt, QSettings
  
 class Usuario(QWidget):
     def __init__(self):
