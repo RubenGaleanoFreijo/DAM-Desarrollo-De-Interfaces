@@ -8,7 +8,7 @@ class mainWindow(QMainWindow):
 
         desplegable = QComboBox()
         self.setCentralWidget(desplegable)
-        desplegable.addItems(("Opcion 1", "Opcion "))
+        desplegable.addItems(("Opcion 1", "Opcion 2"))
         desplegable.currentIndexChanged.connect(self.mostrarIndice)
         desplegable.currentTextChanged.connect(self.mostrarTexto)
     

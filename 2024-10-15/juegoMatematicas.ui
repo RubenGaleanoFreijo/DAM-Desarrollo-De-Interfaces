@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>353</width>
-    <height>385</height>
+    <width>331</width>
+    <height>390</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -30,8 +30,8 @@
    <widget class="QPushButton" name="botonComprobar">
     <property name="geometry">
      <rect>
-      <x>130</x>
-      <y>320</y>
+      <x>120</x>
+      <y>310</y>
       <width>75</width>
       <height>23</height>
      </rect>
@@ -57,14 +57,35 @@
     <property name="geometry">
      <rect>
       <x>40</x>
-      <y>60</y>
-      <width>268</width>
-      <height>171</height>
+      <y>50</y>
+      <width>251</width>
+      <height>181</height>
      </rect>
     </property>
     <layout class="QGridLayout" name="gridLayout">
-     <item row="0" column="6">
-      <widget class="QLineEdit" name="resultado6"/>
+     <item row="2" column="5">
+      <widget class="QLabel" name="operacion8">
+       <property name="text">
+        <string>oper8</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="5">
+      <widget class="QLabel" name="operacion7">
+       <property name="text">
+        <string>oper7</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="5">
+      <widget class="QLabel" name="operacion6">
+       <property name="text">
+        <string>oper6</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QLineEdit" name="resultado1"/>
      </item>
      <item row="3" column="0">
       <widget class="QLabel" name="operacion4">
@@ -108,61 +129,6 @@
        </property>
       </widget>
      </item>
-     <item row="2" column="1">
-      <widget class="QLineEdit" name="resultado3"/>
-     </item>
-     <item row="2" column="5">
-      <widget class="QLabel" name="operacion8">
-       <property name="text">
-        <string>oper8</string>
-       </property>
-      </widget>
-     </item>
-     <item row="1" column="5">
-      <widget class="QLabel" name="operacion7">
-       <property name="text">
-        <string>oper7</string>
-       </property>
-      </widget>
-     </item>
-     <item row="0" column="5">
-      <widget class="QLabel" name="operacion6">
-       <property name="text">
-        <string>oper6</string>
-       </property>
-      </widget>
-     </item>
-     <item row="0" column="1">
-      <widget class="QLineEdit" name="resultado1"/>
-     </item>
-     <item row="4" column="1">
-      <widget class="QLineEdit" name="resultado5"/>
-     </item>
-     <item row="1" column="6">
-      <widget class="QLineEdit" name="resultado7"/>
-     </item>
-     <item row="4" column="6">
-      <widget class="QLineEdit" name="resultado10"/>
-     </item>
-     <item row="2" column="6">
-      <widget class="QLineEdit" name="resultado8"/>
-     </item>
-     <item row="3" column="6">
-      <widget class="QLineEdit" name="resultado9"/>
-     </item>
-     <item row="0" column="4" rowspan="5">
-      <spacer name="verticalSpacer_3">
-       <property name="orientation">
-        <enum>Qt::Vertical</enum>
-       </property>
-       <property name="sizeHint" stdset="0">
-        <size>
-         <width>20</width>
-         <height>40</height>
-        </size>
-       </property>
-      </spacer>
-     </item>
      <item row="0" column="3" rowspan="5">
       <spacer name="verticalSpacer_2">
        <property name="orientation">
@@ -189,11 +155,18 @@
        </property>
       </spacer>
      </item>
-     <item row="3" column="1">
-      <widget class="QLineEdit" name="resultado4"/>
-     </item>
-     <item row="1" column="1">
-      <widget class="QLineEdit" name="resultado2"/>
+     <item row="0" column="4" rowspan="5">
+      <spacer name="verticalSpacer_3">
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>20</width>
+         <height>40</height>
+        </size>
+       </property>
+      </spacer>
      </item>
      <item row="4" column="5">
       <widget class="QLabel" name="operacion10">
@@ -201,6 +174,37 @@
         <string>oper10</string>
        </property>
       </widget>
+     </item>
+     <item row="1" column="6">
+      <widget class="QLineEdit" name="resultado7"/>
+     </item>
+     <item row="2" column="6">
+      <widget class="QLineEdit" name="resultado8"/>
+     </item>
+     <item row="4" column="1">
+      <widget class="QLineEdit" name="resultado5"/>
+     </item>
+     <item row="1" column="1">
+      <widget class="QLineEdit" name="resultado2"/>
+     </item>
+     <item row="4" column="6">
+      <widget class="QLineEdit" name="resultado10"/>
+     </item>
+     <item row="0" column="6">
+      <widget class="QLineEdit" name="resultado6"/>
+     </item>
+     <item row="3" column="6">
+      <widget class="QLineEdit" name="resultado9"/>
+     </item>
+     <item row="2" column="1">
+      <widget class="QLineEdit" name="resultado3">
+       <property name="cursorPosition">
+        <number>0</number>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="1">
+      <widget class="QLineEdit" name="resultado4"/>
      </item>
     </layout>
    </widget>
@@ -223,7 +227,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>353</width>
+     <width>331</width>
      <height>21</height>
     </rect>
    </property>
