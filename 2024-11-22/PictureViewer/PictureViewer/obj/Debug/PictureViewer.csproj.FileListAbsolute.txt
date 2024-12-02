@@ -1,0 +1,10 @@
+C:\Users\Alumno212\OneDrive - Colegio Lagomar\DAM\Desarrollo de Interfaces\2024-11-22\PictureViewer\PictureViewer\bin\Debug\PictureViewer.exe.config
+C:\Users\Alumno212\OneDrive - Colegio Lagomar\DAM\Desarrollo de Interfaces\2024-11-22\PictureViewer\PictureViewer\bin\Debug\PictureViewer.exe
+C:\Users\Alumno212\OneDrive - Colegio Lagomar\DAM\Desarrollo de Interfaces\2024-11-22\PictureViewer\PictureViewer\bin\Debug\PictureViewer.pdb
+C:\Users\Alumno212\OneDrive - Colegio Lagomar\DAM\Desarrollo de Interfaces\2024-11-22\PictureViewer\PictureViewer\obj\Debug\PictureViewer.csproj.AssemblyReference.cache
+C:\Users\Alumno212\OneDrive - Colegio Lagomar\DAM\Desarrollo de Interfaces\2024-11-22\PictureViewer\PictureViewer\obj\Debug\PictureViewer.PictureViewer.resources
+C:\Users\Alumno212\OneDrive - Colegio Lagomar\DAM\Desarrollo de Interfaces\2024-11-22\PictureViewer\PictureViewer\obj\Debug\PictureViewer.Properties.Resources.resources
+C:\Users\Alumno212\OneDrive - Colegio Lagomar\DAM\Desarrollo de Interfaces\2024-11-22\PictureViewer\PictureViewer\obj\Debug\PictureViewer.csproj.GenerateResource.cache
+C:\Users\Alumno212\OneDrive - Colegio Lagomar\DAM\Desarrollo de Interfaces\2024-11-22\PictureViewer\PictureViewer\obj\Debug\PictureViewer.csproj.CoreCompileInputs.cache
+C:\Users\Alumno212\OneDrive - Colegio Lagomar\DAM\Desarrollo de Interfaces\2024-11-22\PictureViewer\PictureViewer\obj\Debug\PictureViewer.exe
+C:\Users\Alumno212\OneDrive - Colegio Lagomar\DAM\Desarrollo de Interfaces\2024-11-22\PictureViewer\PictureViewer\obj\Debug\PictureViewer.pdb
